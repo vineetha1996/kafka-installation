@@ -20,7 +20,7 @@ Window 3 Execute One-Time Commands to create, list, delete topic
 
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list
 ```
-Window 4 - Run Kafka Producer 
+Window 4 - Run Kafka Producer - where you can give your inputs
 ```
 .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic Favorite-Novels
 ```
